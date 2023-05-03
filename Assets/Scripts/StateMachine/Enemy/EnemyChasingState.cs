@@ -19,7 +19,6 @@ public class EnemyChasingState : EnemyBaseState
 
     public override void Exit()
     {
-        stateMachine.Agent.ResetPath();
         stateMachine.Agent.velocity = Vector3.zero;
     }
 

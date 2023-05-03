@@ -25,6 +25,7 @@ public class EnemyImpactState : EnemyBaseState
         Move(deltaTime);
 
         duration -= deltaTime;
+        
 
         if (duration <= 0f)
         {

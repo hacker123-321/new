@@ -33,18 +33,19 @@ public class EnemyStateMachine : StateMachine
 
     private void OnEnable()
     {
-        if (UseImpact) { Health.OnTakeDamage += HandleTakeDamage; }
+        Health.OnTakeDamage += HandleTakeDamage;
         Health.OnDie += HandleDie;
     }
 
     private void OnDisable()
     {
-        if (UseImpact) { Health.OnTakeDamage -= HandleTakeDamage; }
+        Health.OnTakeDamage -= HandleTakeDamage;
         Health.OnDie -= HandleDie;
     }
 
     private void HandleTakeDamage()
     {
+        if(!UseImpact) return;
         SwitchState(new EnemyImpactState(this));
     }
 
