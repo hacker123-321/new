@@ -23,6 +23,7 @@ public class WaveSpawner : MonoBehaviour
     }
     public Wave[] waves;
     private int nextWave = 0;
+    public GameObject PlayerWinner;
 
     public float timeBetweenWaves = 3f;
     public float waveCountdown;
@@ -69,8 +70,8 @@ public class WaveSpawner : MonoBehaviour
 
         if(nextWave + 1 > waves.Length - 1)
         {
-            nextWave = 0;
-            Debug.Log("Compeleted all waves! Looping... ");
+            Time.timeScale = 0f;
+            PlayerWinner.SetActive(true);
         }
         else
         { nextWave++; }

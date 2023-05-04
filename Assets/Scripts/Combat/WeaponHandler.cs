@@ -10,7 +10,7 @@ public class WeaponHandler : MonoBehaviour
     {
         weaponLogic.SetActive(true);
     }
-    public void DisableWeapo()
+    public void DisableWeapon()
     {
         weaponLogic.SetActive(false);
     }

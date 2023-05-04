@@ -7,6 +7,6 @@ public class Over_newGame : MonoBehaviour
 {
     public void btn_newGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

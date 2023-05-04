@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -23,6 +23,26 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
+    }*/
+
+    private void FixedUpdate()
+    {
+        if (GameIsPaused)
+        {
+            buttonPress();
+        }
+    }
+
+    public void buttonPress()
+    {
+        if (GameIsPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
     }
 
     public void Resume()

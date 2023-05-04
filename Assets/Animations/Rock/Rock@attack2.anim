@@ -66579,7 +66579,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 2.1666667
-    functionName: DisableWeapo
+    functionName: DisableWeapon
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -8,7 +8,9 @@ public class PlayerDeadState : PlayerBaseState
 
     public override void Enter()
     {
+        stateMachine.Ragdoll.ToggleRagdoll(true);
         stateMachine.Weapon.gameObject.SetActive(false);
+        stateMachine.YouDie.SetActive(true);
     }
 
     public override void Exit()
