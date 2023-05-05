@@ -4136,24 +4136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - name: wave 1
-    spawnEnemy:
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1639775473}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1956206092}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 715640581}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 454793971}
-    rate: 1
-  - name: wave 2
-    spawnEnemy:
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    rate: 1.5
   - name: wave 3
     spawnEnemy:
     - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
@@ -4184,55 +4166,6 @@ MonoBehaviour:
     spawnEnemy:
     - enemy: {fileID: 5268058569768313175, guid: 1a018804525f98646a05d9bcaf92549c, type: 3}
       spawnPoint: {fileID: 1876397896}
-    rate: 2
-  - name: wave 6
-    spawnEnemy:
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1639775473}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1956206092}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 715640581}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 454793971}
-    rate: 2
-  - name: wave 7
-    spawnEnemy:
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1639775473}
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1956206092}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 715640581}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 454793971}
-    rate: 2
-  - name: wave 8
-    spawnEnemy:
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1956206092}
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 715640581}
-    rate: 2
-  - name: wave 9
-    spawnEnemy:
-    - enemy: {fileID: 5268058569768313175, guid: 1a018804525f98646a05d9bcaf92549c, type: 3}
-      spawnPoint: {fileID: 1363190379}
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    rate: 2
-  - name: wave 10
-    spawnEnemy:
-    - enemy: {fileID: 5268058569768313175, guid: 1a018804525f98646a05d9bcaf92549c, type: 3}
-      spawnPoint: {fileID: 1876397896}
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 1363190379}
     rate: 2
   PlayerWinner: {fileID: 370803741}
   timeBetweenWaves: 3
@@ -4393,6 +4326,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3663279659913226647, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279659913226647, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -4410,11 +4347,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3663279659913226647, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.040750515
+      value: 0.040750537
       objectReference: {fileID: 0}
     - target: {fileID: 3663279659913226647, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.007716143
+      value: -0.007716147
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279660195068620, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3663279660195068620, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4429,12 +4370,20 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3663279660195068627, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_Heading.m_Bias
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279660195068627, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_XAxis.m_InvertInput
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3663279660195068627, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_YAxis.m_InvertInput
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279660195068627, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_RecenterToTargetHeading.m_enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3663279660510062968, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_RootOrder
@@ -4465,6 +4414,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3663279660633816005, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279660633816005, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -4489,6 +4442,10 @@ PrefabInstance:
       value: -0.0035204417
       objectReference: {fileID: 0}
     - target: {fileID: 3663279661513458170, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279661513458170, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -4506,11 +4463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3663279661513458170, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.041003916
+      value: 0.04100393
       objectReference: {fileID: 0}
     - target: {fileID: 3663279661513458170, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0062307925
+      value: -0.006230795
       objectReference: {fileID: 0}
     - target: {fileID: 5012554561434777097, guid: c3a981d8e5770ca478958b343a25ebf5, type: 3}
       propertyPath: sliderHealth
