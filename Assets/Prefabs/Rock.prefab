@@ -612,10 +612,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.10297769
-  m_Height: 0.41191077
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.20595539}
+  m_Radius: 0.57
+  m_Height: 1.9092152
+  m_Direction: 1
+  m_Center: {x: 0.0000011384037, y: 0.9616424, z: 0.0027835278}
 --- !u!54 &5796727206157257063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1030,10 +1030,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.30616412
-  m_Height: 1.2246565
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.61232823}
+  m_Radius: 0.6898529
+  m_Height: 2.095968
+  m_Direction: 1
+  m_Center: {x: 0.0000052172227, y: 1.0532479, z: 0.016403582}
 --- !u!54 &8163300632416480151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1242,10 +1242,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.00000003576279
-  m_Height: 0.00000017881393
-  m_Direction: 0
-  m_Center: {x: 0.00000008940697, y: 0, z: 0}
+  m_Radius: 1.07
+  m_Height: 3.502906
+  m_Direction: 1
+  m_Center: {x: 0.0000012697864, y: 1.7748694, z: 0.0000003359371}
 --- !u!54 &2004043231770776475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1910,10 +1910,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.012654659
-  m_Height: 0.063273296
-  m_Direction: 0
-  m_Center: {x: -0.031636648, y: 0, z: 0}
+  m_Radius: 1.07
+  m_Height: 4.2363877
+  m_Direction: 1
+  m_Center: {x: 0.0000007610732, y: 2.146756, z: -0.00000010896121}
 --- !u!54 &7689683963570080528
 Rigidbody:
   m_ObjectHideFlags: 0
